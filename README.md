@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# CoinNest (Crypto-Clone) 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CoinNest is a web application built using React, Firebase, Tailwind CSS, and the Coin Gecko API. It provides a platform for users to discover trending cryptocurrencies, search for specific coins, save them, and view their saved coins in their account.
 
-## Available Scripts
+## Demo
 
-In the project directory, you can run:
+You can access the live demo of the CoinNest [here](https://cryptoexchange-2e20a.web.app/).
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Description
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+CoinNest is designed to help cryptocurrency enthusiasts stay informed about the latest trends in the digital currency market. Users can explore trending coins, search for specific cryptocurrencies, save their favorite coins, and access them conveniently through their account. The project leverages React for the front-end, Firebase for authentication, deployment and database services, Tailwind CSS for styling, and the Coin Gecko API for fetching cryptocurrency data.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+To run the project locally, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository to your local machine:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/brigitabi/cryptoExchange.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Change the directory to the project folder:
 
-### `npm run eject`
+    ```bash
+ cd coinnest
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Install project dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    npm install 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Create a Firebase project and set up the Firebase configuration in the project.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. Obtain an API key from the Coin Gecko API and replace the placeholder with your API key in the project.
 
-## Learn More
+6. Start the development server:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ```bash
+    npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+7. Open your web browser and navigate to http://localhost:3000.
 
-### Code Splitting
+### Technologies Used
+- React
+- Tailwind CSS
+- Firebase (Authentication ; Firestore ; Website deployment)
+- Coin Gecko API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy Coding! 🚀

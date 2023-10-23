@@ -31,8 +31,8 @@ const SavedCoin = () => {
 
   return (
     <div>
-       {coins?.length === 0 ? ( <p>You do not have any coins saved. Please save a coin to add it to the coin watch list.
-            <Link to='/'>Click here to search coins.</Link>
+       {coins?.length === 0 ? ( <p>You do not have any coins saved. Please save a coin to add it to the coin watch list. 
+            <Link to='/'> Click here to search coins.</Link>
         </p>) : (
             <table className='w-full border-collapse text-center'>
                 <thead>
